@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1700px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 1400px)" href="phone.css">
+    <script src="https://kit.fontawesome.com/50c77334c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="phone-small.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="phone-smaller.css">
+    <script src="https://kit.fontawesome.com/50c77334c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+            <img src="menu.png" alt="" class="menubar">
+            <ul class="navlist1">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Community</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="" class="size1">Discord</a></li>
+                            <li><a href="" class="size1">Instagram</a></li>
+                            <li><a href="" class="size1">Facebook</a></li>
+                            <li><a href="" class="size1">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <ul>   
+        
+                   <input class="search-txt " search-txt type="text" name="" placeholder="Search Anything">
+                       
+            </ul>
+            <img src="user.png" alt="" class="user" onlick="togglemenu()">
+            <ul class="profile none" id="menulist">
+                <li class="smv"><a href="" class="btn2">Sign Up</a></li>
+                <li class="smv"><a href="" class="btn2">Login</a></li>
+                <li class="smv"><a href="" class="btn2">Wishlist</a></li>
+                <li class="smv"><a href="" class="btn2">Cart</a></li>
+            </ul>
+        
+    </nav>
+    <section>
+        <div class="child1">
+            <div class="sub1 shape1 scrollbar">
+                <ul class="list3"> <a href="#" class="listhead">Categories</a>
+                    <li class="list-4"><a href="#">Arcade</a></li>
+                    <li class="list-4"><a href="#">Action</a></li>
+                    <li class="list-4"><a href="#">Adventure</a></li>
+                    <li class="list-4"><a href="#">Casual</a></li>
+                    <li class="list-4"><a href="#">Sci-fi</a></li>
+                    <li class="list-4"><a href="#">Battle Royale</a></li>
+                    <li class="list-4"><a href="#">Racing</a></li>
+                    <li class="list-4"><a href="#">Open World</a></li>
+                    <li class="list-4"><a href="#">Trivia</a></li>
+                    <li class="list-4"><a href="#">Multiplayer</a></li>
+                </ul>
+            </div>
+            
+            <div class="shape1 scrollbar">
+                <a href="" class="center-align listhead">New Releases</a>
+                <ul class="list3 sub2">
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+                    <div class="shape3"></div>
+    
+                    
+                </ul>
+                
+            </div>
+            <div class="sub3 shape1">
+                    <ul class="list3"> <a href="#" class="listhead">My device</a>
+                        <li class="list-4"><a href="#">Store</a></li>
+                        <li class="list-4"><a href="#">My Games</a></li>
+                        <li class="list-4"><a href="#">Downloads</a></li>
+                        
+                    </ul>
+          
+                
+            </div>
+        </div>
+    </section>
+    <script>
+       
+        function togglemenu(){
+            var menulist = document.getElementById("menulist");
+            menulist.classList.remove("none");
+        }
+    </script>
+</body>
+</html>
